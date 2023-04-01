@@ -1,0 +1,62 @@
+
+/* ----------sizes---------- */
+.card-sizes-size,.card-colors-color{
+    padding: .5rem;
+    background-color: #F1F1F1;
+    border: 1px solid #A04955;
+}
+/* ----------colors---------- */
+div[data-filter-color]{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #A04955;
+}
+div[data-filter-color~="white"],div[data-card-color~="white"]{
+    background-color: white;
+}
+div[data-filter-color~="black"],div[data-card-color~="black"]{
+    background-color: black;
+    color: white;
+}
+div[data-filter-color~="beige"],div[data-card-color~="beige"]{
+    background-color: beige;
+}
+div[data-filter-color~="blue"],div[data-card-color~="blue"]{
+    background-color: blue;
+    color: white;
+}
+div[data-filter-color~="brown"],div[data-card-color~="brown"]{
+    background-color: brown;
+}
+div[data-filter-color~="coral"],div[data-card-color~="coral"]{
+    background-color: coral;
+}
+div[data-filter-color~="khaki"],div[data-card-color~="khaki"]{
+    background-color: khaki;
+}
+div[data-filter-color~="gold"],div[data-card-color~="gold"]{
+    background-color: gold;
+}
+div[data-filter-color~="green"],div[data-card-color~="green"]{
+    background-color: green;
+}
+div[data-filter-color~="marron"],div[data-card-color~="marron"]{
+    background-color: maroon;
+    color: white;
+}
+div[data-filter-color~="olive"],div[data-card-color~="olive"]{
+    background-color: olive;
+}
+div[data-filter-color~="orange"],div[data-card-color~="orange"]{
+    background-color: orange;
+}
+div[data-filter-color~="yellow"],div[data-card-color~="yellow"]{
+    background-color: yellow;
+}
+div[data-filter-color~="navy"],div[data-card-color~="navy"]{
+    background-color: navy;
+    color: white;
+}
+div[data-filter-color~="red"],div[data-card-color~="red"]{
+    background-color: red;
+}

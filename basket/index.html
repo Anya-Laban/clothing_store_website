@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <script src="https://kit.fontawesome.com/4065c04e30.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/basket.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-container container">
+                <div class="header-logo"><a href="/"><img src="/img/logo.svg" alt="logo"></a></div> 
+                <div class="header-nav">
+                    <ul class="header-list">
+                        <li class="header-list__item"><a data-headerType="shorts">SHORTS</a></li>
+                        <li class="header-list__item"><a data-headerType="pants" >PANTS</a></li>
+                        <li class="header-list__item"><a data-headerType="shirts">SHIRTS</a></li>
+                        <li class="header-list__item"><a data-headerType="accessories">ACCESSORIES</a></li>
+                        <li class="header-list__item"><a href="#">SALE</a></li>
+                        <li class="header-list__item"><a href="/"><i class="fa-solid fa-xmark"></i></a></li>
+                    </ul>
+                </div>
+                <div class="header-search">
+                    <input type="search" placeholder="SEARCH ENTIRE STORE HERE">
+                </div>
+                <i class="header-menu-bar fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <main>
+            <div class="main-container container">
+                <h2 class="basket-title">Basket</h2>
+                <ul class="basket-ul">
+                    <li class="basket-li basket-li-header">
+                        <div class="basket-item basket-item-header">
+                            <div class="basket-item__image">Photo</div>
+                            <div class="basket-item__name">Name</div>
+                            <div class="basket-item__collection">Collection</div>
+                            <div class="basket-item__color">Color</div>
+                            <div class="basket-item__size">Size</div>
+                            <div class="basket-item__price">Price</div>
+                            <div class="basket-item"></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="total-price">Total price: $<span></span></div>
+                <button type="submit" class="buy-btn">To order</button>
+            </div>
+        </main>
+    </div>
+    <script src="/js/backet.js" type="module"></script>
+</body>
+</html>
