@@ -268,7 +268,7 @@ export function ShowGoodsInbBasket(arrGoods, place, placeHeader){
         let goods = `
             <li class="basket-li">
                 <div class="basket-item">
-                    <div class="basket-item__image"><img src=".${el.image}" alt="photo"></div>
+                    <div class="basket-item__image"><img src="..${el.image}" alt="photo"></div>
                     <div class="basket-item__name">${el.name}</div>
                     <div class="basket-item__collection">${el.collection}</div>
                     <div class="basket-item__color">${el.color}</div>
