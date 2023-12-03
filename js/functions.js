@@ -250,6 +250,14 @@ export function AuditCardClick(cards, allArr){
         })
     })
 }
+export function AuditCardClickMainPage(cards, allArr){
+    cards.forEach((card, index)=>{
+        card.addEventListener("click",()=>{
+            localStorage.currentGoods = JSON.stringify(allArr[index]);
+            document.location = "./goods/index.html"
+        })
+    })
+}
 
 //=============Basket=======================
 export function ShowGoodsInbBasket(arrGoods, place, placeHeader){

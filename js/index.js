@@ -47,5 +47,5 @@ for (let i = 0; i < allCards.length; i++) {
 
 const [...cards] = document.querySelectorAll(".card");
 
-AuditCardClick(cards,allCards);
+AuditCardClickMainPage(cards,allCards);
 

@@ -47,7 +47,7 @@ headerListItems.forEach((el)=>{
     el.addEventListener("click", (el)=>{
         localStorage.setItem('currentPage',el.target.dataset.headertype);
         localStorage.setItem('currentPagePagination', 1);
-        el.target.href = "/catalog/index.html"
+        el.target.href = "./catalog/index.html"
     })
 })
 
@@ -57,7 +57,7 @@ document.querySelector(".header-menu-bar").addEventListener("click", (e) => {
     document.querySelector(".header-list").classList.toggle("header-list__active");
 })
 
-document.getElementById("currentGood").addEventListener("click",()=>document.location = "/goods/index.html")
+document.getElementById("currentGood").addEventListener("click",()=>document.location = "./goods/index.html")
 const basketGoods = JSON.parse(localStorage.basketOfGoods);
 document.getElementById("basketNum").innerText = basketGoods.length;
 
