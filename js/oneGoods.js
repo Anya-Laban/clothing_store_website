@@ -47,7 +47,7 @@ headerListItems.forEach((el)=>{
     el.addEventListener("click", (el)=>{
         localStorage.setItem('currentPage',el.target.dataset.headertype);
         localStorage.setItem('currentPagePagination', 1);
-        el.target.href = "./catalog/index.html"
+        el.target.href = "../catalog/index.html"
     })
 })
 
