@@ -84,7 +84,7 @@ export class Card {
 const allCards = [
     new Card(
         'Academy Shorts Junior Boys',
-        ['/img/shorts/img1_1.webp', '/img/shorts/img1_2.webp'],
+        ['../img/shorts/img1_1.webp', '../img/shorts/img1_2.webp'],
         '15',
         ['Black', 'Navy', 'White'],
         [5, 6, 7, 8, 9, 10, 11, 12, 13],
@@ -95,7 +95,7 @@ const allCards = [
     ),
     new Card(
         'ШОРТИ AIR JORDAN DRI-FIT AIR DIAMOND BLACK',
-        ['/img/shorts/img2_1.webp', '/img/shorts/img2_2.webp' , '/img/shorts/img2_3.webp'],
+        ['../img/shorts/img2_1.webp', '../img/shorts/img2_2.webp' , '../img/shorts/img2_3.webp'],
         '15',
         ['Black', 'White'],
         [11,13,15],
@@ -106,7 +106,7 @@ const allCards = [
     ),
     new Card(
         'ШОРТИ AIR JORDAN ESSENTIALS GREY',
-        ['/img/shorts/img3_1.webp', '/img/shorts/img3_2.webp'],
+        ['../img/shorts/img3_1.webp', '../img/shorts/img3_2.webp'],
         '15',
         ['Black', 'Navy', 'White'],
         [5, 6, 7, 8, 9, 10],
@@ -117,7 +117,7 @@ const allCards = [
     ),
     new Card(
         'Academy Shorts Junior Boys',
-        ['/img/shorts/img1_1.webp', '/img/shorts/img1_2.webp'],
+        ['../img/shorts/img1_1.webp', '../img/shorts/img1_2.webp'],
         '15',
         ['Black', 'White'],
         [5, 6, 7, 8, 9, 10, 11, 12, 13],
@@ -128,7 +128,7 @@ const allCards = [
     ),
     new Card(
         'ШТАНИ NIKE DRI-FIT TAPE TRAINING PANTS BLACK',
-        ['/img/pants/img1_1.webp', '/img/pants/img1_2.webp', '/img/pants/img1_3.webp','/img/pants/img1_4.webp'],
+        ['../img/pants/img1_1.webp', '../img/pants/img1_2.webp', '../img/pants/img1_3.webp','../img/pants/img1_4.webp'],
         '15',
         ['Black', 'White'],
         [5, 6, 7, 8, 12, 13],
@@ -139,7 +139,7 @@ const allCards = [
     ),
     new Card(
         'ШТАНИ NIKE TECH FLEECE RED CU4495-657',
-        ['/img/pants/img2_1.webp', '/img/pants/img2_2.webp'],
+        ['../img/pants/img2_1.webp', '../img/pants/img2_2.webp'],
         '15',
         ['Red', 'White'],
         [5, 6, 7, 8, 12, 13],
@@ -150,7 +150,7 @@ const allCards = [
     ),
     new Card(
         'Academy Shorts Junior Boys',
-        ['/img/shorts/img1_1.webp', '/img/shorts/img1_2.webp'],
+        ['../img/shorts/img1_1.webp', '../img/shorts/img1_2.webp'],
         '15',
         ['Black', 'Navy', 'White'],
         [5, 6, 7, 8, 9, 10, 11, 12, 13],
@@ -161,7 +161,7 @@ const allCards = [
     ),
     new Card(
         'ШОРТИ AIR JORDAN DRI-FIT AIR DIAMOND BLACK',
-        ['/img/shorts/img2_1.webp', '/img/shorts/img2_2.webp' , '/img/shorts/img2_3.webp'],
+        ['../img/shorts/img2_1.webp', '../img/shorts/img2_2.webp' , '../img/shorts/img2_3.webp'],
         '15',
         ['Black', 'White'],
         [11,13,15],
@@ -172,7 +172,7 @@ const allCards = [
     ),
     new Card(
         'ШОРТИ AIR JORDAN ESSENTIALS GREY',
-        ['/img/shorts/img3_1.webp', '/img/shorts/img3_2.webp'],
+        ['../img/shorts/img3_1.webp', '../img/shorts/img3_2.webp'],
         '15',
         ['Black', 'Navy', 'White'],
         [5, 6, 7, 8, 9, 10],
@@ -183,7 +183,7 @@ const allCards = [
     ),
     new Card(
         'Academy Shorts Junior Boys',
-        ['/img/shorts/img1_1.webp', '/img/shorts/img1_2.webp'],
+        ['../img/shorts/img1_1.webp', '../img/shorts/img1_2.webp'],
         '15',
         ['Black', 'Navy', 'White'],
         [5, 6, 7, 8, 9, 10, 11, 12, 13],
@@ -194,7 +194,7 @@ const allCards = [
     ),
     new Card(
         'ШОРТИ AIR JORDAN DRI-FIT AIR DIAMOND BLACK',
-        ['/img/shorts/img2_1.webp', '/img/shorts/img2_2.webp' , '/img/shorts/img2_3.webp'],
+        ['../img/shorts/img2_1.webp', '../img/shorts/img2_2.webp' , '../img/shorts/img2_3.webp'],
         '15',
         ['Black', 'White'],
         [11,13,15],
@@ -205,7 +205,7 @@ const allCards = [
     ),
     new Card(
         'ШОРТИ AIR JORDAN ESSENTIALS GREY',
-        ['/img/shorts/img3_1.webp', '/img/shorts/img3_2.webp'],
+        ['../img/shorts/img3_1.webp', '../img/shorts/img3_2.webp'],
         '15',
         ['Black', 'Navy', 'White'],
         [5, 6, 7, 8, 9, 10],
@@ -216,7 +216,7 @@ const allCards = [
     ),
     new Card(
         'Academy Shorts Junior Boys',
-        ['/img/shorts/img1_1.webp', '/img/shorts/img1_2.webp'],
+        ['../img/shorts/img1_1.webp', '../img/shorts/img1_2.webp'],
         '15',
         ['Black', 'Navy', 'White'],
         [5, 6, 7, 8, 9, 10, 11, 12, 13],
@@ -227,7 +227,7 @@ const allCards = [
     ),
     new Card(
         'ШОРТИ AIR JORDAN DRI-FIT AIR DIAMOND BLACK',
-        ['/img/shorts/img2_1.webp', '/img/shorts/img2_2.webp' , '/img/shorts/img2_3.webp'],
+        ['../img/shorts/img2_1.webp', '../img/shorts/img2_2.webp' , '../img/shorts/img2_3.webp'],
         '15',
         ['Black', 'White'],
         [11,13,15],
@@ -238,7 +238,7 @@ const allCards = [
     ),
     new Card(
         'ШОРТИ AIR JORDAN ESSENTIALS GREY',
-        ['/img/shorts/img3_1.webp', '/img/shorts/img3_2.webp'],
+        ['../img/shorts/img3_1.webp', '../img/shorts/img3_2.webp'],
         '15',
         ['Black', 'Navy', 'White'],
         [5, 6, 7, 8, 9, 10],
@@ -249,7 +249,7 @@ const allCards = [
     ),
     new Card(
         'Nike Dri-FIT Primary',
-        ['/img/shirts/img1_1.webp', '/img/shirts/img1_2.webp', '/img/shirts/img1_3.webp'],
+        ['../img/shirts/img1_1.webp', '../img/shirts/img1_2.webp', '../img/shirts/img1_3.webp'],
         '25',
         ['Coral', 'Green', 'White'],
         [5, 6, 7, 8, 9],
@@ -260,7 +260,7 @@ const allCards = [
     ),
     new Card(
         'Nike Dri-FIT',
-        ['/img/shirts/img2_1.webp', '/img/shirts/img2_2.webp', '/img/shirts/img2_3.jpg'],
+        ['../img/shirts/img2_1.webp', '../img/shirts/img2_2.webp', '../img/shirts/img2_3.jpg'],
         '15',
         ['Black', 'White'],
         [11,13,15],
@@ -271,7 +271,7 @@ const allCards = [
     ),
     new Card(
         'Nike Dri-FIT Legacy91',
-        ['/img/accessories/img1_1.webp','/img/accessories/img1_2.jpg','/img/accessories/img1_3.webp'],
+        ['../img/accessories/img1_1.webp','../img/accessories/img1_2.jpg','../img/accessories/img1_3.webp'],
         '22',
         ['Black', 'Coral', 'White'],
         [5, 6, 7, 8, 9, 10],
@@ -282,7 +282,7 @@ const allCards = [
     ),
     new Card(
         'Nike Everyday Plus',
-        ['/img/accessories/img2_1.webp','/img/accessories/img2_2.webp'],
+        ['../img/accessories/img2_1.webp','../img/accessories/img2_2.webp'],
         '18',
         ['Black', 'Beige', 'White'],
         [5, 6, 7, 8, 9, 10],

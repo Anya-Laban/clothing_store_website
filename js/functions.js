@@ -246,7 +246,7 @@ export function AuditCardClick(cards, allArr){
     cards.forEach((card, index)=>{
         card.addEventListener("click",()=>{
             localStorage.currentGoods = JSON.stringify(allArr[index]);
-            document.location = "/goods/index.html"
+            document.location = "../goods/index.html"
         })
     })
 }
