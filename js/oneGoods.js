@@ -21,9 +21,9 @@ localStorage.setItem('currentPage',currentGoods.type[0]);
 document.getElementById("currentPageCatalog").insertAdjacentText("beforeend",currentGoods.type[0].toUpperCase())
 document.getElementById("currentGood").insertAdjacentText("beforeend",currentGoods.name.toUpperCase())
 
-document.querySelector(".images__main-image").insertAdjacentHTML("beforeend", `<img src="${currentGoods.photos[0]}" alt="photo">`);
+document.querySelector(".images__main-image").insertAdjacentHTML("beforeend", `<img src="..${currentGoods.photos[0]}" alt="photo">`);
 currentGoods.photos.forEach((photo)=>{
-    document.querySelector(".images__all-image").insertAdjacentHTML("beforeend", `<img class = "all-image__image" src="${photo}" alt="photo">`)
+    document.querySelector(".images__all-image").insertAdjacentHTML("beforeend", `<img class = "all-image__image" src="..${photo}" alt="photo">`)
 })
 
 document.querySelector(".header-info__name").insertAdjacentHTML("afterbegin",currentGoods.name);
@@ -57,7 +57,7 @@ document.querySelector(".header-menu-bar").addEventListener("click", (e) => {
     document.querySelector(".header-list").classList.toggle("header-list__active");
 })
 
-document.getElementById("currentGood").addEventListener("click",()=>document.location = "./goods/index.html")
+document.getElementById("currentGood").addEventListener("click",()=>document.location = "../goods/index.html")
 const basketGoods = JSON.parse(localStorage.basketOfGoods);
 document.getElementById("basketNum").innerText = basketGoods.length;
 

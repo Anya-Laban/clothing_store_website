@@ -193,7 +193,7 @@
     
 }
 .addCard-btn {
-    background-image: url("/img/oneGoods/shopping-bag.svg");
+    background-image: url("../img/oneGoods/shopping-bag.svg");
     background-color: #B93B54;
     border:1px solid #B93B54;
     color: #FFFFFF;
@@ -205,7 +205,7 @@
 }
 
 .wishlist-btn {
-    background-image: url("/img/oneGoods/wishlist.svg");
+    background-image: url("../img/oneGoods/wishlist.svg");
     border: 1px solid #000000;
     color: #B93B54;
 }
@@ -509,13 +509,14 @@
     display: inline-block;
     width: 5.2rem;
     height: 5.2rem;
-    background-image: url(/img/Star-border.svg);
+    /* background-image: url(/img/Star-border.svg); */
+    background-image: url("../img/Star-border.svg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .star:hover,
 .star:hover ~ *{
-    background-image: url(/img/Star_yellow.png);
+    background-image: url("../img/Star_yellow.png");
 }
 .client-reviews-form {
     display: flex;

@@ -1,4 +1,4 @@
-@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 a{
@@ -87,7 +87,7 @@ html,body {
     line-height: 2.2rem;
     color: #787878;
 
-    background-image: url(../img/header-search.svg);
+    background-image: url("../img/header-search.svg");
     background-repeat: no-repeat;
     background-position-x: 15px;
     background-position-y: 5px;
@@ -341,10 +341,10 @@ html,body {
     background-repeat: no-repeat;
 }
 .card-star-grey{
-    background-image: url(../img/Star_grey.png);
+    background-image: url("../img/Star_grey.png");
 }
 .card-star-yellow{
-    background-image: url(../img/Star_yellow.png);
+    background-image: url("../img/Star_yellow.png");
 }
 .card-price {
     font-weight: 200;
@@ -359,7 +359,7 @@ html,body {
     text-align: center;
     color: #FFFFFF;
     background-color: #A04955;
-    background-image: url(../img/shopping-bag.svg);
+    background-image: url("../img/shopping-bag.svg");
     background-repeat: no-repeat;
     background-position-x: 0px;
     background-position-y: 5px;
