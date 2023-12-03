@@ -10,7 +10,7 @@ headerListItems.forEach((el)=>{
     el.addEventListener("click", (el)=>{
         localStorage.setItem('currentPage',el.target.dataset.headertype);
         localStorage.setItem('currentPagePagination', 1);
-        el.target.href = "/catalog/index.html"
+        el.target.href = "../../catalog/index.html"
     })
 })
 document.querySelector(".header-menu-bar").addEventListener("click", (e) => {
@@ -27,14 +27,14 @@ removeBtns.forEach((btn,index)=>{
     btn.addEventListener("click", ()=>{
         basketGoods.splice(index, 1);
         localStorage.basketOfGoods = JSON.stringify(basketGoods);
-        document.location = "/basket/index.html"
+        document.location = "../../basket/index.html"
     })
 });
 
 document.querySelector(".buy-btn").addEventListener("click",()=>{
     window.alert("Покупку оформлено");
     localStorage.basketOfGoods = JSON.stringify([]);
-    document.location = "/basket/index.html"
+    document.location = "../../basket/index.html"
 })
 
 

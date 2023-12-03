@@ -1,5 +1,5 @@
 import allCards from "./goods.js"
-import { AuditCardClick } from "./functions.js";
+import { AuditCardClickMainPage } from "./functions.js";
 
 if(!localStorage.currentGoods){
     localStorage.currentGoods = JSON.stringify({});
