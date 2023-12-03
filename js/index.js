@@ -17,18 +17,18 @@ headerListItems.forEach((el)=>{
     el.addEventListener("click", (el)=>{
         localStorage.setItem('currentPage',el.target.dataset.headertype);
         localStorage.setItem('currentPagePagination', 1);
-        el.target.href = "./catalog/index.html"
+        el.target.href = "./catalog/"
     })
 })
 document.getElementById("section1-btn").addEventListener("click",(el)=>{
     localStorage.setItem('currentPage',el.target.dataset.headertype);
     localStorage.setItem('currentPagePagination', 1);
-    el.target.href = "./catalog/index.html"
+    el.target.href = "./catalog/"
 })
 document.getElementById("section3-btn").addEventListener("click",(el)=>{
     localStorage.setItem('currentPage',el.target.dataset.headertype);
     localStorage.setItem('currentPagePagination', 1);
-    el.target.href = "./catalog/index.html"
+    el.target.href = "./catalog/"
 })
 document.querySelector(".header-menu-bar").addEventListener("click", (e) => {
     document.querySelector(".header-menu-bar").classList.toggle("header-menu-bar__active");
